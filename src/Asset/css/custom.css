@@ -1,0 +1,132 @@
+.backImg{
+    background-image: url("../images/topBackgraoung.jpg");
+    min-height: 40rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.backOpa{
+    min-height: 40rem;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 100%;
+}
+
+.topBanner{
+    background: rgba(0, 0, 0, 0.4);
+    min-height: 20rem;
+    width: 50%;
+    position: relative;
+    margin-top: 10rem;
+}
+
+.topButton{
+    background: rgba(17, 196, 11, 0.9) !important;
+    border: 0px;
+}
+
+.topBannerH1{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+}
+
+.topBannerH2{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 250;
+}
+
+.topBannerCol{
+    margin-top: 3.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.serviceCol{
+    height: 20rem;
+    padding:  40px 8px 8px 8px;
+}
+
+.serviceCol:hover{
+    box-shadow: 0 0 30px 0 rgba(9, 20, 31, 0.2);
+}
+
+.serviceTitle{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    color: #207DFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.7rem;
+    font-weight: 800;
+    box-shadow: rgba(0, 0, 0, 0.4);
+}
+
+.navBackground{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.navBackgroundScroll{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.navTitle{
+    color: #ffffff !important;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+.navTitleScroll{
+    color: #207DFF !important;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+.navMenu{
+    color: #ffffff !important;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 400;
+}
+
+.navMenuScroll{
+    color: #207DFF !important;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 400;
+}
+
+.navButton{
+    background-color: #207DFF;
+    border: 2px solid rgba(0, 0, 0, 0.0);
+    border-radius: 5px;
+    height: 40px;
+    padding-bottom: 2px;
+    color: #ffffff;
+    margin-top: -5px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.navButton:hover{
+    background-color: #ffffff;
+    border: 2px solid #207DFF;
+    border-radius: 5px;
+    height: 40px;
+    padding-bottom: 2px;
+    color: #207DFF;
+    margin-top: -5px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 20px;
+}
