@@ -46,13 +46,17 @@
     margin-right: 3rem;
 }
 
+.serviceContainer{
+    margin-bottom: 4rem;
+}
+
 .serviceCol{
     height: 20rem;
     padding:  40px 8px 8px 8px;
 }
 
 .serviceCol:hover{
-    box-shadow: 0 0 30px 0 rgba(9, 20, 31, 0.2);
+    box-shadow: 0 0 40px 0 rgba(9, 20, 31, 0.2);
 }
 
 .serviceTitle{
@@ -68,13 +72,40 @@
 .navBackground{
     padding-top: 20px;
     padding-bottom: 20px;
+    -webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 00ms linear;
+    transition: background-color 500ms linear;
     background-color: rgba(0, 0, 0, 0.0);
+}
+
+.serviceCardTitle{
+    font-size: 28px;
+    font-family:inherit;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.ServiceJustify{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 14px;
 }
 
 .navBackgroundScroll{
     padding-top: 20px;
     padding-bottom: 20px;
+    -webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
     background-color: rgb(255, 255, 255);
+}
+
+.navImg{
+    margin-top: -8px;
 }
 
 .navTitle{
@@ -106,27 +137,235 @@
 }
 
 .navButton{
-    background-color: #207DFF;
-    border: 2px solid rgba(0, 0, 0, 0.0);
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 2px solid #207DFF;
     border-radius: 5px;
     height: 40px;
+    width: 12rem;
     padding-bottom: 2px;
-    color: #ffffff;
+    color: #207DFF;
     margin-top: -5px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: sans-serif;
     font-size: 20px;
 }
 
 .navButton:hover{
-    background-color: #ffffff;
+    background-color: #207DFF;
     border: 2px solid #207DFF;
     border-radius: 5px;
     height: 40px;
+    width: 12rem;
     padding-bottom: 2px;
-    color: #207DFF;
+    color: #ffffff;
     margin-top: -5px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: sans-serif;
     font-size: 20px;
+}
+
+.fluidContainer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgba(97, 94, 255, 0.1);
+}
+
+.aboutContainer{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.arrowImg{
+    height: 20px;
+    width: 20px;
+    color: #207DFF;
+}
+
+.justify{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 50px;
+    padding-left: 100px;
+}
+
+.upImg{
+    position: absolute;
+    height: 28rem;
+    width: 25rem;
+}
+
+.downImg{
+    position: relative;
+    margin-top: 5rem;
+    margin-left: 15rem;
+    height: 28rem;
+    width: 25rem;
+}
+
+.aboutWelcome{
+    margin-bottom: 2rem;
+    font-size: 20px;
+    font-family:monospace;
+    font-weight: 600;
+    color: #207DFF;
+}
+
+.aboutTitle{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.aboutTitle2{
+    margin-top: -15px;
+    margin-bottom: 1.2rem;
+}
+
+p{
+    font-family: cursive;
+    color: gray;
+}
+
+.aboutPoint{
+    margin-top: -15px;
+}
+
+.aboutPara{
+    margin-bottom: 3.3rem;
+}
+
+.aboutButton{
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 2.7rem;
+    width: 15rem;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: inherit;
+    color: #207DFF;
+    margin-top: 3rem;
+    border: 2px solid #207DFF;
+    padding-bottom: 5px;
+}
+
+.aboutButton:hover{
+    background-color: #207DFF;
+    height: 2.7rem;
+    width: 15rem;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 750;
+    font-family: inherit;
+    color: white;
+    margin-top: 3rem;
+    border: 2px solid #207DFF;
+    padding-bottom: 5px;
+}
+
+.searchBack{
+    background-image: url('../images/searchBack.jpg');
+    min-height: 25rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.searchOpa{
+    min-height: 25rem;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 100%;
+    /* margin-left: 0px; */
+}
+
+.searchTitle{
+    margin-top: 6.5rem;
+    font-family: unset;
+    font-weight: 800;
+    font-size: 50px;
+    color: green;
+    text-shadow: 1px 1px black ;
+}
+
+.searchDes{
+    font-family: unset;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px black ;
+
+}
+
+.searchButton{
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 2.7rem;
+    width: 15rem;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: inherit;
+    color: #207DFF;
+    margin-top: 3rem;
+    border: 2px solid #207DFF;
+    padding-bottom: 5px;
+}
+
+.searchButton:hover{
+    background-color: #207DFF;
+    height: 2.7rem;
+    width: 15rem;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 750;
+    font-family: inherit;
+    color: white;
+    margin-top: 3rem;
+    border: 2px solid #207DFF;
+    padding-bottom: 5px;
+}
+
+.commonCompoenet{
+    height: 4rem;
+    width: 25rem;
+    border-radius: 30px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color:cornsilk;
+    border: 2px solid #207DFF !important;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.freeConsultHeading{
+    /* margin-top: 5rem; */
+    margin-bottom: 3rem;
+    color: #207DFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.7rem;
+    font-weight: 800;
+}
+
+.freeConsultButton{
+    background-color: rgba(255, 255, 255, 0.0);
+    font-size: 20px;
+    font-weight: 800;
+    font-family: inherit;
+    color: #207DFF;
+}
+
+.freeConsultButton:hover{
+    background-color: #207DFF;
+    font-size: 20px;
+    font-weight: 750;
+    font-family: inherit;
+    color: white;
+}
+
+.freeConsultContainer{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: rgba(97, 94, 255, 0.1);
 }

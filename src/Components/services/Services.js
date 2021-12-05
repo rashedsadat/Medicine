@@ -10,28 +10,28 @@ class Services extends Component {
     render() {
         return (
             <Fragment>
-                <Container className="text-center">
+                <Container className="text-center serviceContainer">
                     <h1 className="serviceTitle">Our Services</h1>
                     <Row>
                         <Col sm={12} md={6} lg={3} className="serviceCol">
                             <img src={emegency}/>
-                            <h2>Emergency Services</h2>
-                            <p>Lorem ex est nolor irure aduip officia Lorem irure. Non fugiat mollit consequat amet pariatur fugiat voluptate quis amet exercitation magna.</p>
+                            <h2 className="serviceCardTitle">Emergency Services</h2>
+                            <p className="ServiceJustify">Lorem ex est nolor irure aduip officia Lorem irure. Non fugiat mollit consequat amet pariatur fugiat voluptate quis amet exercitation magna.</p>
                         </Col>
                         <Col sm={12} md={6} lg={3} className="serviceCol">
                             <img src={fullHours}/>
-                            <h2>24 Hours Services</h2>
-                            <p>Lorem ex est nolor irure aduip officia Lorem irure. Non fugiat mollit consequat amet pariatur fugiat voluptate quis amet exercitation magna.</p>
+                            <h2 className="serviceCardTitle">24 Hours Services</h2>
+                            <p className="ServiceJustify">Lorem ex est nolor irure aduip officia Lorem irure. Non fugiat mollit consequat amet pariatur fugiat voluptate quis amet exercitation magna.</p>
                         </Col>
                         <Col sm={12} md={6} lg={3} className="serviceCol">
                             <img src={outdor}/>
-                            <h2>Outdoor Checkup</h2>
-                            <p>Lorem ex est nolor irure aduip officia Lorem irure. Non fugiat mollit consequat amet pariatur fugiat voluptate quis amet exercitation magna.</p>
+                            <h2 className="serviceCardTitle">Outdoor Checkup</h2>
+                            <p className="ServiceJustify">Lorem ex est nolor irure aduip officia Lorem irure. Non fugiat mollit consequat amet pariatur fugiat voluptate quis amet exercitation magna.</p>
                         </Col>
                         <Col sm={12} md={6} lg={3} className="serviceCol">
                             <img src={doctor}/>
-                            <h2>Qualified Doctors</h2>
-                            <p>Lorem ex est nolor irure aduip officia Lorem irure. Non fugiat mollit consequat amet pariatur fugiat voluptate quis amet exercitation magna.</p>
+                            <h2 className="serviceCardTitle">Qualified Doctors</h2>
+                            <p className="ServiceJustify">Lorem ex est nolor irure aduip officia Lorem irure. Non fugiat mollit consequat amet pariatur fugiat voluptate quis amet exercitation magna.</p>
                         </Col>
                     </Row>
                 </Container>

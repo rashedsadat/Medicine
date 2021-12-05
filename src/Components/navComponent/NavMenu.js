@@ -31,7 +31,7 @@ class NavMenu extends Component {
             <div>
                 <Navbar fixed="top" className={this.state.navbarBack} collapseOnSelect expand="lg" variant="dark">
                     <Container>
-                        <Navbar.Brand className={this.state.navbarTitle}><img src={navbarIcon}/> HelthCare</Navbar.Brand>
+                        <Navbar.Brand className={this.state.navbarTitle}><img src={navbarIcon} className="navImg"/> HelthCare</Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">
