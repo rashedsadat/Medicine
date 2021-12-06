@@ -5,10 +5,15 @@ class FreeConsult extends Component {
     constructor(){
         super();
         this.state = {
-            city1: "Select Your Services",
-            city2: "Noakhali",
-            city3: "Cumilla",
-            city4: "Feni",
+            selectService: "Select Services",
+            item1: "Neurology",
+            item2: "Opthalmology",
+            item3: "Nuclear Magnetic",
+            item4: "Surgical",
+            item5: "Cardiology",
+            item6: "X-ray",
+            item7: "Dental",
+            item8: "Traumatology",
             show: ""
         }
     }
@@ -28,10 +33,15 @@ class FreeConsult extends Component {
                                     <input className="commonCompoenet" type="text" placeholder="First Name" /><br/>
                                     <input className="commonCompoenet" type="text" placeholder="Last Name" /><br/>
                                     <select className="commonCompoenet" onChange={this.onChangeHandler} value={this.state.show}>
-                                        <option>{this.state.city1}</option>
-                                        <option>{this.state.city2}</option>
-                                        <option>{this.state.city3}</option>
-                                        <option>{this.state.city4}</option>
+                                        <option>{this.state.selectService}</option>
+                                        <option>{this.state.item1}</option>
+                                        <option>{this.state.item2}</option>
+                                        <option>{this.state.item3}</option>
+                                        <option>{this.state.item4}</option>
+                                        <option>{this.state.item5}</option>
+                                        <option>{this.state.item6}</option>
+                                        <option>{this.state.item7}</option>
+                                        <option>{this.state.item8}</option>
                                     </select><br/>
                                     <input className="commonCompoenet" type="text" placeholder="Phone" />
                                 </Col>
