@@ -86,6 +86,11 @@
     margin-top: 1rem;
 }
 
+.justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .ServiceJustify{
     text-align: justify;
     text-justify: inter-word;
@@ -443,4 +448,41 @@ p{
 .departmentContainer{
     padding-top: 4rem;
     padding-bottom: 4rem;
+}
+
+.analysisImg{
+    background-image: url('../images/searchBack.jpg');
+    min-height: 35rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.analysisOpa{
+    min-height: 35rem;
+    background: rgba(66, 140, 244, 0.9);
+    width: 100%;
+    position: absolute;
+}
+
+.analysisContent{
+    margin: 4rem;
+}
+
+.analysisLeftContent{
+    padding-left: 9rem;
+    padding-top: 7rem;
+}
+
+.analysisRightContent{
+    margin-top: 7rem;
+}
+
+.analysisRightContentline{
+    border-right: 2px solid #45628a;
+}
+
+.analysisMidLine{
+    border-bottom: 2px solid #45628a;
+
 }

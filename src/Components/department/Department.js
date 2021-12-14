@@ -11,7 +11,7 @@ class Department extends Component {
             departmentCom: "departmentComponent",
             departmentIco: "departmentIcon",
             departmentTit: "departmentTitle",
-            departmentSub: "departmentSubTitle",
+            departmentSub: "departmentSubTitle"
         }
     }
     
@@ -23,8 +23,7 @@ class Department extends Component {
                     <Row>
                         <Col md={12} lg={6}>
                             <Row>
-                                <Col className={this.state.departmentCom}
-                                    
+                                <Col className={this.state.departmentCom}  
                                     onMouseEnter={() => this.setState({status:true, departmentCom:"departmentComponentHover", departmentIco:"departmentIconHover", departmentTit:"departmentTitleHover", departmentSub:"departmentSubTitleHover"})}
                                     onMouseLeave={() => this.setState({status:false, departmentCom:"departmentComponent", departmentIco:"departmentIcon", departmentTit:"departmentTitle", departmentSub:"departmentSubTitle"})}
                                 >
@@ -107,7 +106,6 @@ class Department extends Component {
                     </Row>
                 </Container>
             </Fragment>
-
         );
     }
 }

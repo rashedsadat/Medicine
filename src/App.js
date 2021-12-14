@@ -1,5 +1,6 @@
 import React from 'react';
 import About from './Components/about/About';
+import Analysis from './Components/analysis/Analysis';
 import Department from './Components/department/Department';
 import FreeConsult from './Components/freeConsult/FreeConsult';
 import NavMenu from './Components/navComponent/NavMenu';
@@ -17,6 +18,7 @@ function App() {
       <Search/>
       <FreeConsult/>
       <Department/>
+      <Analysis/>
     </div>
   );
 }
