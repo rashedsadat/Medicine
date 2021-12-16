@@ -7,6 +7,8 @@ import NavMenu from './Components/navComponent/NavMenu';
 import Search from './Components/search/Search';
 import Services from './Components/services/Services';
 import TopContent from './Components/topContent/TopContent';
+import Doctor from './Components/doctor/Doctor';
+import Updates from './Components/updates/Updates';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <FreeConsult/>
       <Department/>
       <Analysis/>
+      <Doctor/>
+      <Updates/>
     </div>
   );
 }
